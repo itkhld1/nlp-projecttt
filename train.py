@@ -26,7 +26,7 @@ num_labels = len(id2label)
 
 print("step 1 done, labels are ready")
 
-print("loading dataset from huggingface... hope this works lol")
+print("loading dataset from huggingface...")
 dataset = load_dataset("rajeshradhakrishnan/fin-transaction-category", split='train')
 
 # changing column names so trainer doesn’t complain
